@@ -1,7 +1,7 @@
 PRIVATE_REGISTRY_URL=ro.lan:5000
 
 DOCKER_IMAGE=cuongtransc/mongo-backup
-VERSION=3.4
+VERSION=0.1
 
 all: build
 

@@ -110,6 +110,8 @@ if [ "$1" = 'CRON' ]; then
         echo "=> Running cron job"
         cron && tail -f /mongo_backup.log
     fi
+
+    exit 0
 fi
 
 exec "$@"
